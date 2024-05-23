@@ -1,0 +1,28 @@
+* {
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 100; 
+}
+ a {
+    font-size: large;
+ }
+
+ h1 {
+    font-size: xx-large; 
+    text-align: center;
+ }
+ .title {
+    padding: 8px;
+    border-radius: 5px;
+ }
+
+ .project-container {
+    text-align: center;
+    padding: 15px;
+    
+    display: block;
+ }
+
+ .img-container {
+    display: block;
+    text-align: center;
+ }
