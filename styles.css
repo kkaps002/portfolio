@@ -34,10 +34,12 @@ body {
     top: 0px;
     text-align: center;
     border-bottom: 1px solid black;
+    padding: 7px;
  }
 
  h1 {
   font-weight: bold;
+  padding: 0 10px;
  }
 
 ul  {
