@@ -1,33 +1,77 @@
 
 * {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100; 
-   
+    padding: 0%;
+    margin: 0;
 }
+
 body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 10px;
+ 
 }
+
  a {
     font-size: large;
  }
 
  h1 {
-    font-size: xx-large; 
-    text-align: center;
+    font-size:large; 
+    /* text-align: center; */
+ } 
+
+ li {
+  font-weight: bold; 
+
  }
+ .header {
+    background-color: white;
+    color: black;
+    width: 90%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+ }
+
+ h1 {
+  font-weight: bold;
+ }
+
+ul  {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  font-weight: lighter;
+}
+
  .title {
-    padding: 8px;
-    border-radius: 5px;
+   font-size: xx-large;
+   color: black;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ footer {
+   height: 10px;
  }
 
  .project-container {
-    text-align: center;
-    padding: 15px;
-    background-color: white;
-    display: block;
+   border-bottom: 10px dotted red ;
+    /* text-align: center; */
+    padding: 0px;
+    /* background-color: white; */
+    color: white;
+    /* display: block; */
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-bottom: 35px;
+    width: 90%;
+
  }
 
  .iframe-container {
@@ -35,21 +79,26 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
-   
-    
+    /* overflow: hidden; */    
+ }
+
+ #vocab-tool, #vocab-code {
+   display: block;
+   width: 100%;
+ }
+ #vocab-tool {
+   border: 1px solid black;
  }
 
  #rps {
    height: 710px;
    width: 610px;
-   overflow:hidden;
+   /* overflow:hidden; */
  }
 
  #eas {
    height: 740px;
-   width: 610px;
-   
+   width: 610px; 
  }
 
 
@@ -59,9 +108,5 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-   }
-
-   #rps {
-      width: 10px;
    }
  }

@@ -4,66 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
-
-<script src="script.js" defer></script>
+    <title>Portfolio</title>
+    <script src="script.js" defer></script>
 </head>
 <body> 
-    <div class="title">
-        <h1>Konstantinos Kapsimalis</h1>
-        <h1>kapsimaliscostas@gmail.com</h1>  
-        <a href="https://github.com/kkaps002"><h1>Github</h1></a>
-    </div>
+    <ul class="header">
+        <li><h1> Konstantinos Kapsimalis</h1></li>
+        <li><h2>kapsimaliscostas@gmail.com</h2></li>
+        <li><a href="https://github.com/kkaps002"><h1>Github</h1></a></li>
+    </ul>
 
-    <div class="projcet-container">
-        <h1 class="title">Film Database - Console App (Python, SQLite3)</h1>
-        <div class="img-container">
-            <iframe src="https://replit.com/@kkaps002/FilmFlixDB?embed=true" frameborder="0" height="400px" width="800px"></iframe>
-        </div>  
-    </div>
-            
-    <div class="projcet-container">
-        <h1 class="title">Rock-Paper-Scissors & Etch-A-Sketch(JS, HTML, CSS)</h1>
+    <div class="project-container">
+        <h1 class="title">Etch-A-Sketch (HMTL,JS,CSS, DOM Manipulation)</h1>
         <div class="iframe-container">
-            <iframe src="https://kkaps002.github.io/odin-rps/"  id="rps" frameBorder = "0" ></iframe>
             <iframe src="https://kkaps002.github.io/odin-eas/" id="eas" frameBorder = "0"></iframe>    
         </div>
-        
-       
     </div>
-    
+            
     <div class="project-container">
-        <h1 class="title"> Vocabulary learning app (HTML,vanilla JS, CSS, local Storage)</h1>
-        
-        <div class="img-container">
-            <iframe src="https://kkaps002.github.io/vocab_helper/" frameborder="0" height="430px" width="800px"></iframe>
-            <iframe src="https://replit.com/@kkaps002/Vocabulary-App?embed=true" frameborder="0" height="400px" width="800px"></iframe> 
+        <h1 class="title">Rock-Paper-Scissors (HTML, JS, CSS)</h1>
+
+        <div class="iframe-container">
+            <iframe src="https://kkaps002.github.io/odin-rps/"  id="rps" frameBorder = "0" ></iframe>
+        </div>   
+    </div>
+     
+    <div class="project-container">
+        <h1 class="title"> Vocabulary learning tool (HTML, JS, CSS)</h1>
+        <div class="iframe-container">
+            <iframe src="https://kkaps002.github.io/vocab_helper/" frameborder="0" height="450px" width="800px" id="vocab-tool"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://replit.com/@kkaps002/Vocabulary-App?embed=true" frameborder="0" height="450px" width="800px" id="vocab-code"></iframe> 
+        </div>
+    </div>
+   
+    <div class="project-container">
+        <h1 class="title">Film Database - Console App (CRUD Console App, Python, SQLite3)</h1>
+        <div class="iframe-container">
+            <iframe src="https://replit.com/@kkaps002/FilmFlixDB?embed=true&outputonly=1&terminal=true" frameborder="0" height="400px" width="800px"></iframe>
         </div>  
     </div>
-    
-    <!-- <div class="project-container">
-        <h1 class="title"> Drum Machine Project (Bela Platform, PureData)</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jlwOdmyzxXY?si=cgjm7CsV3tBVf2hS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-    </div>
-     -->
-    <!-- <div class="project-container">
-        <h1 class="title"> MaxMSP Devices</h1>
-        <img src="./pictures/MaxMSP.jpeg">
-    </div> -->
 
-    <!-- <div class="project-container">
-        <h1 class="title"> Palletising Simulation (Webots API, Python)</h1>
+     <div class="project-container">
+        <h1 class="title"> Drum Machine Project (Bela Platform, PureData)</h1>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jlwOdmyzxXY?si=cgjm7CsV3tBVf2hS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+        </div>
+    </div>
+     
+    <div class="project-container">
+        <h1 class="title"> MaxMSP Devices (Digital Music Tool Prototypes)</h1>
+        <div class="iframe-container">
+            <img src="./pictures/MaxMSP.jpeg">
+        </div>
+    </div>
+
+    <div class="project-container">
+        <h1 class="title"> Industrial Palletising Simulation (Webots API, Python)</h1>
+        <div class="iframe-container">
         <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/wL4l_s8b948?si=YZyA5F4-m-_FmZLW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div> -->
-    
+    </div>
+    </div>
 </body>
 </html>
